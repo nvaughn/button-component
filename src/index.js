@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CustomButton from './components/custom-button/custom-button.component'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CustomButton type='submit'>CustomButton</CustomButton>
   </React.StrictMode>,
   document.getElementById('root')
 );
